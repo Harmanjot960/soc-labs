@@ -1,0 +1,19 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# IDE folders
+.vscode/
+.idea/
+
+# Python cache (future use)
+__pycache__/
+*.pyc
+
+# Sensitive files
+*.env
+secrets.txt
