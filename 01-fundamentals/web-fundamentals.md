@@ -52,9 +52,9 @@ JavaScript adds interactivity to web pages.
 alert("Hello World");
 
 ## Uses
-Form validation
-Dynamic content
-API requests
+- Form validation
+- Dynamic content
+- API requests
 
 ---
 # 🌍 HTTP / HTTPS
