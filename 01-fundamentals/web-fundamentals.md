@@ -1,4 +1,19 @@
 # 🌐 Web Development for SOC Analysts
+## Topics Covered
+- LAN (Local Area Network)
+- IP Addresses
+- MAC Addresses
+- Network Topologies
+- ARP
+- OSI Model
+- DHCP
+- Packets and Frames
+- TCP/IP & UDP
+- Firewalls
+- VPN Basics
+- Networking Devices
+
+---
 
 # 🌍 DNS (Domain Name System)
 
