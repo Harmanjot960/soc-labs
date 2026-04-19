@@ -1,15 +1,15 @@
 # 🌐 Web Development for SOC Analysts
 ## Topics Covered
-- LAN (Local Area Network)
-- IP Addresses
-- MAC Addresses
-- Network Topologies
-- ARP
-- OSI Model
-- DHCP
-- Packets and Frames
-- TCP/IP & UDP
-- Firewalls
+- DNS (Domain Name System)
+- How DNS Works
+- DNS Record Types
+- HTTP
+- HTTP Methods
+- HTTP Status Codes
+- HTTP Headers
+- Cookies
+- How a Website Works
+- HTML Basics
 - VPN Basics
 - Networking Devices
 
