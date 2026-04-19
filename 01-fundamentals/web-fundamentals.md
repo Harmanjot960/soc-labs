@@ -10,14 +10,11 @@
 - Cookies
 - How a Website Works
 - HTML Basics
-- VPN Basics
-- Networking Devices
-
+- JavaScript Basics
 ---
 
 # 🌍 DNS (Domain Name System)
 
-## What is DNS?
 DNS translates domain names into IP addresses.
 
 Example:
@@ -49,8 +46,6 @@ google.com → 142.x.x.x
 ---
 
 # 🌍 HTTP / HTTPS
-
-## What is HTTP?
 
 Protocol used for communication between client and server.
 
@@ -153,4 +148,15 @@ HTML defines the structure of a webpage.
     <p>This is a paragraph</p>
   </body>
 </html>
+---
 
+**# ⚙️ JavaScript Basics**
+
+JavaScript adds interactivity to web pages.
+
+Example
+alert("Hello World");
+Uses
+Form validation
+Dynamic content
+API requests
