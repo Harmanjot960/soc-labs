@@ -56,6 +56,7 @@ Form validation
 Dynamic content
 API requests
 
+---
 # 🌍 HTTP / HTTPS
 
 Protocol used for communication between client and server.
