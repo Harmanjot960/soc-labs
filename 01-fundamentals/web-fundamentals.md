@@ -3,6 +3,7 @@
 - DNS (Domain Name System)
 - How DNS Works
 - DNS Record Types
+- JavaScript Basics
 - HTTP
 - HTTP Methods
 - HTTP Status Codes
@@ -10,7 +11,6 @@
 - Cookies
 - How a Website Works
 - HTML Basics
-- JavaScript Basics
 ---
 
 # 🌍 DNS (Domain Name System)
@@ -44,6 +44,17 @@ google.com → 142.x.x.x
 - Identify malware communication
 
 ---
+# ⚙️ JavaScript Basics
+
+JavaScript adds interactivity to web pages.
+
+## Example
+alert("Hello World");
+
+## Uses
+Form validation
+Dynamic content
+API requests
 
 # 🌍 HTTP / HTTPS
 
@@ -150,13 +161,4 @@ HTML defines the structure of a webpage.
 </html>
 ---
 
-**# ⚙️ JavaScript Basics**
 
-JavaScript adds interactivity to web pages.
-
-Example
-alert("Hello World");
-Uses
-Form validation
-Dynamic content
-API requests
