@@ -1,9 +1,5 @@
 # 🌐 Web Development for SOC Analysts
 
-This document covers essential web technologies and security concepts required for Security Operations Center (SOC) analysts.
-
----
-
 # 🌍 DNS (Domain Name System)
 
 ## What is DNS?
