@@ -137,7 +137,7 @@ Small pieces of data stored in the browser.
 
 HTML defines the structure of a webpage.
 ## Example
-</HTML>
+
 <!DOCTYPE html>
 <html>
   <head>
