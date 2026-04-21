@@ -140,10 +140,11 @@ HTML defines the structure of a webpage.
 
 <!DOCTYPE html>
 <html>
-  <head>
+  
+  <body>
+    <head>
     <title>Page</title>
   </head>
-  <body>
     <h1>Hello</h1>
     <p>This is a paragraph</p>
   </body>
