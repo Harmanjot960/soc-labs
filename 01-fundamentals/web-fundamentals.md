@@ -156,7 +156,7 @@ HTML defines the structure of a webpage.
 ---
 # ⚠️ Web Vulnerabilities
 
-# Sensitive Data Exposure
+## Sensitive Data Exposure
 - Weak encryption or no encryption
 - Sensitive info in URLs or responses
 ## SOC Relevance
@@ -164,29 +164,29 @@ HTML defines the structure of a webpage.
 - Monitor for unencrypted sensitive data
 - Identify leaks in responses
 ---
-# HTML Injection
+## HTML Injection
 Injecting malicious HTML into a webpage
 ## SOC Relevance
 - Detect unusual input in parameters
 - Identify defaced or altered web pages
 - Monitor for reflected input in responses
 - ---
-## 🏗️ Infrastructure Components
+# 🏗️ Infrastructure Components
 
-# Load Balancer
+## Load Balancer
 Distributes traffic across multiple servers.
 ## SOC Relevance
 - Logs may show real client IP (X-Forwarded-For)
 - Helps identify traffic distribution anomalies
 ---
-# WAF (Web Application Firewall)
+## WAF (Web Application Firewall)
 Filters and monitors HTTP traffic.
 ## SOC Relevance
 - Detect blocked attack attempts
 - Analyze WAF logs for attack patterns
 - Identify false positives/negatives
 ---
-# CDN (Content Delivery Network)
+## CDN (Content Delivery Network)
 
 Caches content closer to users for faster delivery.
 ## SOC Relevance
