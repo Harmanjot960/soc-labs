@@ -14,7 +14,7 @@
 ---
 # 🌍 DNS (Domain Name System)
 DNS translates domain names into IP addresses.
-Example:
+## Example:
 google.com → 142.x.x.x
 ## How DNS Works
 1. Browser checks cache
@@ -135,7 +135,7 @@ Small pieces of data stored in the browser.
 
 HTML defines the structure of a webpage.
 ## Example
-```html
+</HTML>
 <!DOCTYPE html>
 <html>
   <head>
@@ -152,40 +152,44 @@ HTML defines the structure of a webpage.
 - Detect hidden elements used in attacks
 ---
 # ⚠️ Web Vulnerabilities
-Sensitive Data Exposure
-Weak encryption or no encryption
-Sensitive info in URLs or responses
+
+# Sensitive Data Exposure
+- Weak encryption or no encryption
+- Sensitive info in URLs or responses
 ## SOC Relevance
 - Detect exposed credentials in traffic/logs
 - Monitor for unencrypted sensitive data
 - Identify leaks in responses
-HTML Injection
+---
+# HTML Injection
 Injecting malicious HTML into a webpage
 ## SOC Relevance
 - Detect unusual input in parameters
 - Identify defaced or altered web pages
 - Monitor for reflected input in responses
-🏗️ Infrastructure Components
-Load Balancer
+- ---
+## 🏗️ Infrastructure Components
 
+# Load Balancer
 Distributes traffic across multiple servers.
-
 ## SOC Relevance
 - Logs may show real client IP (X-Forwarded-For)
 - Helps identify traffic distribution anomalies
-
-WAF (Web Application Firewall)
+---
+# WAF (Web Application Firewall)
 Filters and monitors HTTP traffic.
 ## SOC Relevance
 - Detect blocked attack attempts
 - Analyze WAF logs for attack patterns
 - Identify false positives/negatives
-CDN (Content Delivery Network)
+---
+# CDN (Content Delivery Network)
 
 Caches content closer to users for faster delivery.
-
 ## SOC Relevance
 - Source IP may appear as CDN instead of attacker
 - Need to trace real IP via headers
 - Used to hide origin servers
+---
+
 
