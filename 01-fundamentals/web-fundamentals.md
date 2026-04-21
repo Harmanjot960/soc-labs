@@ -23,9 +23,7 @@ google.com → 142.x.x.x
 4. TLD server (.com)
 5. Authoritative server
 6. IP returned to browser
-
 ## DNS Record Types
-
 - A → IPv4
 - AAAA → IPv6
 - CNAME → Alias
