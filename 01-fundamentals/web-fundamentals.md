@@ -12,16 +12,11 @@
 - How a Website Works
 - HTML Basics
 ---
-
 # 🌍 DNS (Domain Name System)
-
 DNS translates domain names into IP addresses.
-
 Example:
 google.com → 142.x.x.x
-
 ## How DNS Works
-
 1. Browser checks cache
 2. Query sent to resolver
 3. Root server contacted
@@ -39,9 +34,9 @@ google.com → 142.x.x.x
 
 ## SOC Relevance
 
-- Detect DNS tunneling
-- Monitor suspicious domains
-- Identify malware communication
+- Detect DNS tunneling (high volume / unusual queries)
+- Monitor newly registered or suspicious domains
+- Identify malware C2 communication via DNS
 
 ---
 # ⚙️ JavaScript Basics
@@ -56,6 +51,11 @@ alert("Hello World");
 - Dynamic content
 - API requests
 
+## SOC Relevance
+- Malicious scripts in web pages (XSS)
+- Obfuscated JavaScript used in attacks
+- Analyze script behavior in phishing sites
+
 ---
 # 🌍 HTTP / HTTPS
 
@@ -69,6 +69,11 @@ Protocol used for communication between client and server.
 Client → Request → Server  
 Server → Response → Client  
 
+## SOC Relevance
+Inspect HTTP traffic for suspicious requests
+HTTPS hides payload → rely on metadata/logs
+Detect unusual communication patterns
+
 ---
 
 # 🔄 HTTP Methods
@@ -78,6 +83,7 @@ Server → Response → Client
 - PUT → Update data
 - DELETE → Remove data
 - PATCH → Partial update
+## SOC Relevance
 
 ---
 
@@ -99,6 +105,7 @@ Server → Response → Client
 ## 5xx Server Errors
 - 500 Internal Server Error
 - 503 Service Unavailable
+## SOC Relevance
 
 ---
 
@@ -112,6 +119,7 @@ Examples:
 - Authorization → Credentials
 - Content-Type → Data format
 - Cookie → Session data
+## SOC Relevance
 
 ---
 
@@ -129,6 +137,7 @@ Small pieces of data stored in the browser.
 
 - Session hijacking
 - Cookie theft
+## SOC Relevance
 
 ---
 
@@ -140,6 +149,7 @@ Small pieces of data stored in the browser.
 4. Server processes request
 5. Server returns HTML response
 6. Browser renders the page
+## SOC Relevance
 
 ---
 
@@ -160,6 +170,7 @@ HTML defines the structure of a webpage.
     <p>This is a paragraph</p>
   </body>
 </html>
+## SOC Relevance
 ---
 
 
