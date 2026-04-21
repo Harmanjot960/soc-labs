@@ -14,7 +14,7 @@
 ---
 # 🌍 DNS (Domain Name System)
 DNS translates domain names into IP addresses.
-## Example:
+Example:
 google.com → 142.x.x.x
 ## How DNS Works
 1. Browser checks cache
