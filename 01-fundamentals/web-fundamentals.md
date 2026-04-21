@@ -11,6 +11,8 @@
 - Cookies
 - How a Website Works
 - HTML Basics
+- Web Vulnerabilities (Sensitive Data Exposure, HTML Injection)
+- Infrastructure Components (Load Balancers, WAF , CDN )
 ---
 # 🌍 DNS (Domain Name System)
 DNS translates domain names into IP addresses.
@@ -146,6 +148,7 @@ HTML defines the structure of a webpage.
     <p>This is a paragraph</p>
   </body>
 </html>
+
 ## SOC Relevance
 - Identify injected/malicious HTML
 - Analyze phishing page structure
